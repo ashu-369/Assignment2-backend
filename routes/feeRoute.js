@@ -3,6 +3,6 @@ const router = express.Router()
 const calculateFee = require('../controllers/registrationController')
 
 // route
-router.post('/fee',calculateFee)
+router.post('/register',calculateFee)
 
 module.exports = router;
